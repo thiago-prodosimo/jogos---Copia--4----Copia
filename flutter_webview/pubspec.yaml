@@ -1,0 +1,40 @@
+name: flutter_webview
+description: "NESflix Mobile Web View Application"
+publish_to: 'none'
+
+version: 1.0.0+3
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.10
+  webview_flutter: ^4.14.1
+  webview_flutter_android: ^4.12.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#030712"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/loading/carregamento.logo.gif
+    - assets/icon/app_icon.png
+    - assets/web/
+    - assets/web/Jogosnes/
+    - assets/web/Jogosnes/jogos.img/
